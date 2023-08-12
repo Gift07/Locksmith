@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dotted {
+  width: 110px;
+  height: 258px;
+  background-image: radial-gradient(circle, #00aa5d 3px, transparent 0),
+    radial-gradient(circle, #00aa5d 3px, transparent 0);
+  background-position: 2, 2 10px 10px;
+  background-size: 20px 20px;
+}
