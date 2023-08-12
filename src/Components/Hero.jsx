@@ -24,6 +24,7 @@ const Hero = () => {
       description: "Ultrices placerat amet mus ex adipiscing metus",
     },
   ];
+  const phoneNumber = "+12025846476";
   return (
     <div className="w-full h-[50rem] relative">
       <div className="w-full h-full absolute">
@@ -81,7 +82,11 @@ const Hero = () => {
             peace of mind.`}
           </p>
           <div data-aos="zoom-in" data-aos-duration="1200" className="py-2">
-            <button className="px-4 py-2 bg-green">Make appointment</button>
+            <a href={`tel:${phoneNumber}`}>
+              <button className="py-2 px-12 bg-green text-white">
+                Call Us Now
+              </button>
+            </a>
           </div>
         </div>
       </div>

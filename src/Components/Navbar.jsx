@@ -19,6 +19,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const phoneNumber = "+12025846476";
   return (
     <div
       className={`w-full h-20 ${
@@ -35,8 +36,8 @@ const Navbar = () => {
           <li>Services</li>
           <li>Team</li>
         </ul>
-        <button className="py-2 px-4 bg-green text-white">
-          Make appointment
+        <button className="py-2 px-12 bg-green text-white">
+          <a href={`tel:${phoneNumber}`}>Call Us Now</a>
         </button>
       </div>
       <div className="text-lg  flex lg:md:hidden">

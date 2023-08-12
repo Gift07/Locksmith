@@ -1,4 +1,5 @@
 const Contact = () => {
+  const phoneNumber = "+12025846476";
   return (
     <div className="w-full h-[30rem] relative mt-20 ">
       <div className="w-full absolute">
@@ -25,9 +26,11 @@ const Contact = () => {
             {`Don't hesitate to contact us for more help.`}
           </h1>
           <div data-aos="zoom-in" data-aos-duration="1000">
-            <button className="px-8 py-2  bg-green shadow-lg text-white">
-              Contact Help Center
-            </button>
+            <a href={`tel:${phoneNumber}`}>
+              <button className="py-2 px-12 bg-green text-white">
+                Call Us Now
+              </button>
+            </a>
           </div>
         </div>
       </div>

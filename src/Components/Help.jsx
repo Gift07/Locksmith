@@ -19,6 +19,7 @@ const Help = () => {
         "Unlocking Mobility, Ensuring Convenience: Your Trusted Automotive Locksmith Partner",
     },
   ];
+  const phoneNumber = "+12025846476";
   return (
     <div className="w-full lg:md:h-[48rem] flex h-[70rem] mb-[16rem] lg:md:mb-0">
       <div className="relative w-full">
@@ -49,9 +50,11 @@ const Help = () => {
               safeguard what's most important to you.`}
             </p>
             <div data-aos="zoom-in" data-aos-duration="1000" className="py-3">
-              <button className="px-8 py-2 bg-green text-white">
-                Discover More
-              </button>
+              <a href={`tel:${phoneNumber}`}>
+                <button className="py-2 px-12 bg-green text-white">
+                  Call Us Now
+                </button>
+              </a>
             </div>
           </div>
         </div>
