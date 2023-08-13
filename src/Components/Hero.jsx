@@ -81,6 +81,13 @@ const Hero = () => {
             of security and are here to offer reliable solutions that grant you
             peace of mind.`}
           </p>
+          <h1
+            data-aos="zoom-in"
+            data-aos-duration="900"
+            className="font-bold text-lg"
+          >
+            Locked out?
+          </h1>
           <div data-aos="zoom-in" data-aos-duration="1200" className="py-2">
             <a href={`tel:${phoneNumber}`}>
               <button className="py-2 px-12 bg-green text-white">
