@@ -21,7 +21,8 @@ const Hero = () => {
     },
     {
       title: "Top Quality",
-      description: "Ultrices placerat amet mus ex adipiscing metus",
+      description:
+        "At Top Quality Locksmith, we take pride in safeguarding what matters most to you",
     },
   ];
   const phoneNumber = "+12025846476";
@@ -79,7 +80,7 @@ const Hero = () => {
             top-notch services that protect what matters most to you. Whether
             it's your home, business, or vehicle, we understand the importance
             of security and are here to offer reliable solutions that grant you
-            peace of mind.`}
+            peace of mind`}
           </p>
           <h1
             data-aos="zoom-in"

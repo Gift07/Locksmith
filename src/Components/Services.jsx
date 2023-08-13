@@ -7,37 +7,37 @@ const Services = () => {
       icons: <BsTools />,
       title: "Installation & Repair",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        " Our specialized locksmith team offers a comprehensive range of installation and repair services to ensure your safety",
     },
     {
       icons: <AiFillUnlock />,
       title: "Deadbolt Lock",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "Our expertise in deadbolt locks goes beyond the ordinary, offering you a level of protection that you can trust. ",
     },
     {
       icons: <BsCreditCard />,
       title: "Smart Lockouts",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "If you find yourself locked out of your smart-enabled space, our expert team is here to provide swift and efficient solutions",
     },
     {
       icons: <BsKey />,
       title: "Key Duplication",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "Whether you need extra keys for your home, business, or vehicle, our experts will ensure that you have it",
     },
     {
       icons: <BsKey />,
       title: "Emergency Lockouts",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "We specialize in providing efficient emergency lockout solutions ,so that you may regain access to your space quickly ",
     },
     {
       icons: <AiOutlineCar />,
       title: "Garage Locks",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "Our specialized garage lock solutions offer you the peace of mind that your valuable possessions and vehicles are protected",
     },
   ];
   return (

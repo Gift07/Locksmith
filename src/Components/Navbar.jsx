@@ -1,4 +1,3 @@
-import { AiOutlineMenu } from "react-icons/ai";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -30,19 +29,13 @@ const Navbar = () => {
         <h1 className="font-bold text-xl">JB Locksmith</h1>
       </div>
       <div className=" hidden lg:md:flex lg:md:items-center lg:md:gap-x-8">
-        <ul className="flex items-center gap-x-4">
-          <li className="text-green">Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Team</li>
-        </ul>
         <button className="py-2 px-12 bg-green text-white">
           <a href={`tel:${phoneNumber}`}>Call Us Now</a>
         </button>
       </div>
-      <div className="text-lg  flex lg:md:hidden">
-        <AiOutlineMenu />
-      </div>
+      <button className="py-2 px-12 bg-green text-white flex lg:md:hidden">
+        <a href={`tel:${phoneNumber}`}>Call Us Now</a>
+      </button>
     </div>
   );
 };

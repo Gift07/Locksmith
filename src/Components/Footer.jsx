@@ -1,4 +1,3 @@
-import { AiOutlineMail } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa";
 
 const Footer = () => {
@@ -22,12 +21,8 @@ const Footer = () => {
             className="py-3 font-light text-sm"
           >
             <span className="flex items-center gap-x-2 py-1">
-              <AiOutlineMail />
-              <h1>+1202584-6476</h1>
-            </span>
-            <span className="flex items-center gap-x-2 py-1">
               <FaPhone />
-              <h1>support@yourdomain.tld</h1>
+              <h1>+1202584-6476</h1>
             </span>
           </div>
         </div>

@@ -54,9 +54,9 @@ const Protection = () => {
               data-aos-duration="1200"
               className="max-w-lg pb-2 text-gray-500"
             >
-              Ac suspendisse sem efficitur enim montes ultricies maecenas
-              praesent in non lobortis. Vel suspendisse molestie cras est
-              vulputate sed. Pretium placerat enim velit hendrerit euismod.
+              {`At Top Quality Locksmith, we understand that your family's safety
+          is your top priority. That's why we go beyond being just
+          locksmiths – we are your dedicated protection partner.`}
             </p>
             <div className="max-w-md flex items-start justify-between py-3">
               <div>
