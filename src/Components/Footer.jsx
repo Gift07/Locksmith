@@ -22,7 +22,7 @@ const Footer = () => {
           >
             <span className="flex items-center gap-x-2 py-1">
               <FaPhone />
-              <h1>+1202584-6476</h1>
+              <h1>+12405846476</h1>
             </span>
           </div>
         </div>

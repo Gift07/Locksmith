@@ -18,7 +18,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const phoneNumber = "+12025846476";
+  const phoneNumber = "+12405846476";
   return (
     <div
       className={`w-full h-20 ${
